@@ -1,18 +1,23 @@
 #include <iostream>
 #include "util.h"
 #include "sort.h"
-#define	SIZE 20
+#define	SIZE 10
 using namespace std;
 
 int main() {
 
-	int vector[SIZE];
+	int vector[SIZE];//{10, 2, 3, 4, 5, 6, 7, 8, 9, 1};
 
 	int a, b;
 	cin >> a >> b;
 	
-	cout << "before " << get_massive(vector, SIZE, a, b) << endl
-		<< "after " << bubble_sort(vector, SIZE) << endl;
+	get_massive(vector, SIZE, a, b);
+
+	cout << "before: " << print_massive(vector, SIZE) << endl;
+	
+	 selected_sort(vector, SIZE);
+
+	 cout << "after: " << print_massive(vector, SIZE) << endl;
 
 	return 0;
 }

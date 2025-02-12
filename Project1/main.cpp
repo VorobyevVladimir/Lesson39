@@ -4,6 +4,8 @@
 #define	SIZE 10
 using namespace std;
 
+//это все шутки и юмор
+
 int main() {
 
 	int vector[SIZE];//{10, 2, 3, 4, 5, 6, 7, 8, 9, 1};

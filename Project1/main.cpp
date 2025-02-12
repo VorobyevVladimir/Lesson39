@@ -1,10 +1,10 @@
-#include <iostream>
+п»ї#include <iostream>
 #include "util.h"
 #include "sort.h"
 #define	SIZE 10
 using namespace std;
 
-//это все шутки и юмор
+//СЌС‚Рѕ РІСЃРµ С€СѓС‚РєРё Рё СЋРјРѕСЂ
 
 int main() {
 
